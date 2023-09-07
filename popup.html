@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RewardSearch</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 350px;
+      height: 100%;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    #container {
+      width: 300px;
+      height: 350px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h3 {
+      margin: 0;
+      padding-bottom: 20px;
+      font-size: 24px;
+      color: #333333;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    input {
+      width: 90%;
+      padding: 10px;
+      border: 1px solid #cccccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .searchC {
+      margin-bottom: 10px;
+    }
+
+    button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 6px;
+      background-color: #007bff;
+      color: #ffffff;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-start {
+      margin-right: 10px;
+    }
+
+    .btn-stop {
+      margin-left: 10px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #status {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555555;
+    }
+
+    .description {
+      font-size: 10px;
+      margin-top: 20px;
+      text-align: center;
+      color: #777777;
+    }
+
+    .social-links {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      gap: 10px;
+    }
+
+    .social-link {
+      font-size: 12px;
+      color: #555555;
+      text-decoration: none;
+    }
+
+    .social-link:hover {
+      color: #007bff;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h3><strong>Search Random Word</strong></h3>
+    <label for="searchCount">Number of Searches:</label>
+    <input type="number" id="searchCount" class="searchC" min="1" value="40">
+    <label for="delayTime">Time Delay (ms) between Searches [1000ms = 1sec]:</label>
+    <input type="number" id="delayTime" min="0" value="2000">
+    <button id="searchButton" class="btn-start">Start Search</button>
+    <button id="stopButton" class="btn-stop">Stop Search</button>
+    <div id="status"></div>
+    <div class="description">
+      This extension allows you to search random words on Bing. Set the number of searches and time delay between searches. (if you get live.login error change account password on edge browser)
+    </div>
+    <div class="social-links">
+      <a class="social-link" href="https://github.com/anuragjain-git">GitHub</a>
+      <a class="social-link" href="mailto:itsanuragjain.0@gmail.com">Contact</a>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

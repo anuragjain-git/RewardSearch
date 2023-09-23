@@ -1,10 +1,10 @@
 # RewardSearch
 
 If you aren't familiar with Microsoft Rewards, MicrosoftRewards earns you points on every searches on Edge and Bing browser which can be converted into giftcards. There were few extensions which automatically complete your searches and some people uses VPN to complete tasks faster but all the tricks and bots were banned by Microsoft.
-
 But i have found that it could still be done by creating your own extension and uploading it as an unpacked extension by enabling developer mode on extension page.
 
-This will help you auto complete searches by considering number of searches and delay between search queries. Recommended delay is 2500ms to avoid restrictions.
+This will help you auto complete searches by considering number of searches and delay between search queries.
+Recommended delay is 2500ms to avoid restrictions.
 
 <b> <u> How to download and add extension folder</u> :  </b>
 
@@ -12,18 +12,20 @@ This will help you auto complete searches by considering number of searches and 
   
 ![download](https://github.com/anuragjain-git/RewardSearch/assets/98457054/0173c35e-d999-4026-804b-cbf8aea8f021)
 
-2. Go to manage Extension
+2. Go to Manage extension
+
+![extension](https://github.com/anuragjain-git/RewardSearch/assets/98457054/dd31602a-d29e-4fda-a6e9-788370d62a31)
 
 ![extension(1)](https://github.com/anuragjain-git/RewardSearch/assets/98457054/b094d69d-2d38-4bb3-b9d4-ead697160988)
 
-![extension](https://github.com/anuragjain-git/RewardSearch/assets/98457054/dd31602a-d29e-4fda-a6e9-788370d62a31)
 
 3. Turn on developer mode and upload the unzip extension folder as unpacked extension on edge browser
 
 ![extrension(3)](https://github.com/anuragjain-git/RewardSearch/assets/98457054/ce794f4a-8951-41b1-a1fb-c57e461d8ca4)
 
+<i>(after adding the extension you could see the extension in extension tab)</i><br>
+<i>(turn on eye button to pin the extension)</i><br>
 ![extension4](https://github.com/anuragjain-git/RewardSearch/assets/98457054/ce1c3e03-1739-4cab-9e2f-33b248814889)
-<i>(turn on eye button to pin the extension)</i>
 
 - You can now claim daily points by running the extension.<br>
 - You can switch between tabs and windows while the extension is running.<br>

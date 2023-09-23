@@ -3,8 +3,7 @@
 If you aren't familiar with Microsoft Rewards, MicrosoftRewards earns you points on every searches on Edge and Bing browser which can be converted into giftcards. There were few extensions which automatically complete your searches and some people uses VPN to complete tasks faster but all the tricks and bots were banned by Microsoft.
 But i have found that it could still be done by creating your own extension and uploading it as an unpacked extension by enabling developer mode on extension page.
 
-This will help you auto complete searches by considering number of searches and delay between search queries.
-Recommended delay is 2500ms to avoid restrictions.
+<b>This will help you auto complete searches by considering number of searches and delay between search queries.<i> Recommended delay is 2500ms to run the extension without any restrictions. </i></b>
 
 <b> <u> How to download and add extension folder</u> :  </b>
 

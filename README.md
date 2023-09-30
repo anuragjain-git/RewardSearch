@@ -5,7 +5,7 @@ But i have found that it could still be done by creating your own extension and 
 
 <b>This will help you auto complete searches by considering number of searches and delay between search queries.<i> Recommended delay is 2500ms to run the extension without any restrictions. </i></b>
 
-<b> <u> How to download and add extension folder</u> :  </b>
+# How to download and add extension folder :
 
 1. Download the extension folder
   
@@ -30,7 +30,7 @@ But i have found that it could still be done by creating your own extension and 
 - You can switch between tabs and windows while the extension is running.<br>
 - You can see number of searches left while running and could stop the searches in between the searches.<br>
 
-<b><u>How to earn points for bing (phone)</u> : </b>
+# How to earn points for bing on desktop
 
 1. Run the extension
 
